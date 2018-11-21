@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CombGenerator)(type Legacy)(uri /Users/r-w/Desktop/CombGenerator/CombGenerator.lib)(options "")(descr ""))
+  (lib (name CombGenerator-rescue)(type Legacy)(uri ${KIPRJMOD}/CombGenerator-rescue.lib)(options "")(descr ""))
+)
