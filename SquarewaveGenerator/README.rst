@@ -13,8 +13,10 @@ And here's the circuit running on the 'scope:
 
 .. image:: DS1Z_QuickPrint3.png
 
-Not bad for a cheap little circuit.  It draws less than 3mA at 5volts, unloaded.
-About 30mA into a 50 ohm load.
+Not bad for a cheap little circuit.  This shows a risetime of 2.7 nanoseconds.
+The ringing has a frequency of about 130MHz.  Here the generator is working
+into a 50Ω load and the peak-to-peak voltage is just over 2.5v.
+It draws just under 30mA.
 
 I have been building circuits on PCB lately using the PCB shops in China with
 through-hole components, but now I want to get into surface-mounted components
