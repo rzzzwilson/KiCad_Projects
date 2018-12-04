@@ -67,10 +67,12 @@ much shorter connections for power and signal.  Here's the PCB:
 
 .. image:: Version3PCB.png
 
-Final version?
-==============
+4 December 2018
+===============
 
-The PCB shown above has arrived and has been built.  Performance is slightly better than the previous version.  Everything else is about the same, but the rising edge risetime is now 1.6ns.
+The PCB shown above has arrived and has been built.  Performance is slightly
+better than the previous version.  Everything else is about the same, but the
+leading edge risetime is now 1.6ns.
 
 .. image:: DS1Z_QuickPrint4.png
 
