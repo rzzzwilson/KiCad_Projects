@@ -47,7 +47,7 @@ and the board installed in a small 25x25x50mm case:
 
 With the generator working into a 50 ohm load it draws about 30mA at 5v.  Here's
 a close look at the leading edge of the 3KHz square wave.  Risetime is even
-better than the first version at 1.7nS:
+better than the first version at 1.7ns:
 
 .. image:: DS1Z_QuickPrint5.png
 
@@ -66,3 +66,12 @@ The board is sized to fit into the 25x25x50mm case *diagonally* which will allow
 much shorter connections for power and signal.  Here's the PCB:
 
 .. image:: Version3PCB.png
+
+Final version?
+==============
+
+The PCB shown above has arrived and has been built.  Performance is slightly better than the previous version.  Everything else is about the same, but the rising edge risetime is now 1.6ns.
+
+.. image:: DS1Z_QuickPrint4.png
+
+That's about as far I will go with this simple circuit.
