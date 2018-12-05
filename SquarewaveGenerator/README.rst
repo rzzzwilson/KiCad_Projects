@@ -76,4 +76,10 @@ leading edge risetime is now 1.6ns.
 
 .. image:: DS1Z_QuickPrint4.png
 
+The only improvement I want to try is to add a 10uF decoupling capacitor to
+the power input trace.  Testing it out by patching the board saw no change apart
+from removing the 700KHz low frequency ringing.  Still, it's worth doing and
+the latest KiCad design includes the capacitor.  I won't make a PCB for this
+as the patched version works fine.
+
 That's about as far I will go with this simple circuit.
