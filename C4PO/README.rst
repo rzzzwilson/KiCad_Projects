@@ -16,4 +16,6 @@ The circuit is here:
 
 .. image:: C4PO_Schematic.png
 
-This was built using Manhattan/Dead bug style.
+This was built using Manhattan/Dead bug style:
+
+.. image:: IMG_5594.JPG
