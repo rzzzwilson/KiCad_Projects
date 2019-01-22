@@ -558,8 +558,6 @@ Keyer/Shaper
 Text Notes 5900 5600 0    50   ~ 10
 Power Amplifier
 Wire Wire Line
-	7150 5100 7300 5100
-Wire Wire Line
 	7000 5100 7300 5100
 Text Notes 3550 4700 0    50   Italic 0
 tone
