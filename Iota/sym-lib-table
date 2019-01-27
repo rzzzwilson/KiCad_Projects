@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Iota)(type Legacy)(uri /Users/r-w/git/KiCad_Projects/Iota/Iota.lib)(options "")(descr ""))
+  (lib (name Iota-rescue)(type Legacy)(uri ${KIPRJMOD}/Iota-rescue.lib)(options "")(descr ""))
+)
