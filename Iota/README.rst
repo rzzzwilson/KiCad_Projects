@@ -23,3 +23,14 @@ The `Misc` directory contains various documents:
 * Teensy_2.0_pinout.png - the Teensy 2 pinout
 
 The design of the `Iota` will start with the teensy_2.gif schematic.
+
+Versions
+--------
+
+The 1.0 version was a bust.  The micro USB SMD mount components I ordered don't
+match the component footprint I used on the PCB.  There's no way to bodge the
+SMD components to fit the board, so onto version 1.1.
+
+Before doing that I'll try connecting the USB sockets I have to the PCB with
+flying leads.  That way I can test the PCB electrical design before ordering
+the 1.1 board!
