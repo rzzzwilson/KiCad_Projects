@@ -33,5 +33,7 @@ SMD components to fit the board, so onto version 1.1.
 
 Before doing that I'll try connecting the USB sockets I have to the PCB with
 flying leads.  That way I can test the PCB electrical design before ordering
-the 1.1 board!  This wasn't successful, so now I'm waiting for the 1.1 board
+the 1.1 board!
+
+Hacking the 1.0 board wasn't successful, so now I'm waiting for the 1.1 board
 to arrive, along with new USB sockets.
