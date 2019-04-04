@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Iota - A Teensy 2.0 clone"
 Date "2018-12-12"
-Rev "0.1"
+Rev "1.2"
 Comp ""
 Comment1 "A near-clone of the Teensy 2.0 board"
 Comment2 ""
