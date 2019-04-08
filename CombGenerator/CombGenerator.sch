@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:CombGenerator-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -134,17 +133,6 @@ F 2 "CombGenerator:Pad_Power_RF" H 10000 2800 50  0001 C CNN
 F 3 " ~" H 10000 2800 50  0001 C CNN
 	1    10000 2800
 	1    0    0    -1  
-$EndComp
-$Comp
-L CombGenerator-rescue:Barrel_Jack-Connector J1
-U 1 1 5BF3D21F
-P 7700 1800
-F 0 "J1" H 7755 2125 50  0000 C CNN
-F 1 "Barrel_Jack" H 7755 2034 50  0000 C CNN
-F 2 "CombGenerator:Pad_Power_RF" H 7750 1760 50  0001 C CNN
-F 3 "~" H 7750 1760 50  0001 C CNN
-	1    7700 1800
-	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -1425,4 +1413,15 @@ Wire Notes Line
 	3050 1800 1250 1800
 Wire Notes Line
 	1250 1800 1250 1500
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 5C95B522
+P 7700 1800
+F 0 "J1" H 7470 1850 50  0000 R CNN
+F 1 "Barrel_Jack" H 7470 1759 50  0000 R CNN
+F 2 "" H 7750 1760 50  0001 C CNN
+F 3 "~" H 7750 1760 50  0001 C CNN
+	1    7700 1800
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

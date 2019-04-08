@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PowerMeter-rescue)(type Legacy)(uri ${KIPRJMOD}/PowerMeter-rescue.lib)(options "")(descr ""))
+  (lib (name PowerMeter)(type Legacy)(uri /Users/r-w/git/KiCad_Projects/PowerMeter/PowerMeter.lib)(options "")(descr ""))
+)
