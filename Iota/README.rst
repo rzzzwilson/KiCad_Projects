@@ -34,7 +34,7 @@ SMD components to fit the board, so onto version 1.1.
 2019_04_03: The 1.1 board using an SMD mini B USB socket has arrived.  After
 fiddling with the crystal loading capacitors (increased to 22pF) and burning a
 bootloader into the CPU, IT WORKS!   Here's a picture of it running the Adafruit
-GFX library demo using an little 128x64 OLED display from AliExpress::
+GFX library demo using an little 128x64 OLED display from AliExpress:
 
 .. image:: IMG_5709.JPG
 
