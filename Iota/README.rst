@@ -39,4 +39,4 @@ GFX library demo using an little 128x64 OLED display from AliExpress:
 .. image:: IMG_5709.JPG
 
 I followed this procedure to
-`bootload the AtMega32U4 <ihttps://murchlabs.com/monday-experiment-bootloading-an-atmega32u4-with-arduino/>`_.
+`bootload the AtMega32U4 <https://murchlabs.com/monday-experiment-bootloading-an-atmega32u4-with-arduino/>`_.
