@@ -31,9 +31,12 @@ The 1.0 version was a bust.  The micro USB SMD mount components I ordered don't
 match the component footprint I used on the PCB.  There's no way to bodge the
 SMD components to fit the board, so onto version 1.1.
 
-Before doing that I'll try connecting the USB sockets I have to the PCB with
-flying leads.  That way I can test the PCB electrical design before ordering
-the 1.1 board!
+2019_04_03: The 1.1 board using an SMD mini B USB socket has arrived.  After
+fiddling with the crystal loading capacitors (increased to 22pF) and burning a
+bootloader into the CPU, IT WORKS!   Here's a picture of it running the Adafruit
+GFX library demo using an little 128x64 OLED display from AliExpress::
 
-Hacking the 1.0 board wasn't successful, so now I'm waiting for the 1.1 board
-to arrive, along with new USB sockets.
+.. image:: IMG_5709.JPG
+
+I followed this procedure to
+`bootload the AtMega32U4 <ihttps://murchlabs.com/monday-experiment-bootloading-an-atmega32u4-with-arduino/>`_.
