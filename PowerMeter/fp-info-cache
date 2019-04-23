@@ -1,4 +1,4 @@
-139923450325843
+144676402729843
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -22812,6 +22812,27 @@ Conn_1x2
 0
 2
 2
+footprints
+Grounding_Pad
+
+
+0
+1
+1
+footprints
+logo
+
+
+0
+0
+0
+footprints
+Untitled
+
+
+0
+0
+0
 Fuse_Holders_and_Fuses
 BladeFuse-CarType
 
