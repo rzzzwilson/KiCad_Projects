@@ -46,16 +46,16 @@ I followed this procedure to
 
 The procedure (cleaned up) is:
 
-* Attach Uno to PC
-* Load sketch from File|Sketch|11.Arduino Isp|ArduinoISP
-* Disconnect Uno from PC
-* Connect the Iota to the Uno:
+1. Attach Uno to PC
+2. Load sketch from File|Sketch|11.Arduino Isp|ArduinoISP
+3. Disconnect Uno from PC
+4. Connect the Iota to the Uno:
   * 10uF electro between GND and RESET on Uno
   * Vcc and GND on Uno to Iota
   * Uno 13 to Iota B1
   * Uno 12 to Iota B3
   * Uno 11 to Iota B2
   * Uno 10 to Iota RESET
-* Attach Uno to PC
-* Choose "Arduino Leonardo" from list of target boards
-* Burn the bootloader
+5. Attach Uno to PC
+6. Choose "Arduino Leonardo" from list of target boards
+7. Burn the bootloader
