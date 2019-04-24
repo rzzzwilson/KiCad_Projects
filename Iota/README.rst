@@ -38,5 +38,24 @@ GFX library demo using an little 128x64 OLED display from AliExpress:
 
 .. image:: IMG_5709.JPG
 
+Burning the bootloader
+----------------------
+
 I followed this procedure to
 `bootload the AtMega32U4 <https://murchlabs.com/monday-experiment-bootloading-an-atmega32u4-with-arduino/>`_.
+
+The procedure (cleaned up) is:
+
+* Attach Uno to PC
+* Load sketch from File|Sketch|11.Arduino Isp|ArduinoISP
+* Disconnect Uno from PC
+* Connect the Iota to the Uno:
+  - 10uF electro between GND and RESET on Uno
+  - Vcc and GND on Uno to Iota
+  - Uno 13 to Iota B1
+  - Uno 12 to Iota B3
+  - Uno 11 to Iota B2
+  - Uno 10 to Iota RESET
+* Attach Uno to PC
+* Choose "Arduino Leonardo" from list of target boards
+* Burn the bootloader

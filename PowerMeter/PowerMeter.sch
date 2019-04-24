@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Simple RF Power Meter"
 Date "2019-04-01"
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 "QST June 2001"
 Comment2 ""
