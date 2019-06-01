@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9851
+D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
+$ENDCMP
+#
+#End Doc Library

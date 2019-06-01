@@ -1,4 +1,508 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "HeadlessVFO"
+Date "2019-06-01"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "A minimal VFO controlled by an external computer."
+$EndDescr
+$Comp
+L HeadlessVFO:AD9851 U?
+U 1 1 5CF32054
+P 5750 3050
+F 0 "U?" H 5750 3900 50  0000 C CNN
+F 1 "AD9851" H 5750 3050 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 5750 1750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf" H 5450 1950 50  0001 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6350 3000
+NoConn ~ 6350 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5CF34F9A
+P 6850 2700
+F 0 "C?" H 6942 2746 50  0000 L CNN
+F 1 "0.1" H 6942 2655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6850 2700 50  0001 C CNN
+F 3 "~" H 6850 2700 50  0001 C CNN
+	1    6850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF36D39
+P 7200 2700
+F 0 "C?" H 7292 2746 50  0000 L CNN
+F 1 "0.1" H 7292 2655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7200 2700 50  0001 C CNN
+F 3 "~" H 7200 2700 50  0001 C CNN
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF37161
+P 7500 2700
+F 0 "C?" H 7592 2746 50  0000 L CNN
+F 1 "0.1" H 7592 2655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7500 2700 50  0001 C CNN
+F 3 "~" H 7500 2700 50  0001 C CNN
+	1    7500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF376CB
+P 7800 2700
+F 0 "C?" H 7892 2746 50  0000 L CNN
+F 1 "0.1" H 7892 2655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7800 2700 50  0001 C CNN
+F 3 "~" H 7800 2700 50  0001 C CNN
+	1    7800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2800 7200 2800
+Wire Wire Line
+	7200 2800 7500 2800
+Connection ~ 7200 2800
+Wire Wire Line
+	7800 2800 7500 2800
+Connection ~ 7500 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5CF37F99
+P 7200 2850
+F 0 "#PWR?" H 7200 2600 50  0001 C CNN
+F 1 "GND" H 7300 2750 50  0000 C CNN
+F 2 "" H 7200 2850 50  0001 C CNN
+F 3 "" H 7200 2850 50  0001 C CNN
+	1    7200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2600 6850 2600
+Wire Wire Line
+	6350 2500 7200 2500
+Wire Wire Line
+	7200 2500 7200 2600
+Wire Wire Line
+	6350 2400 7500 2400
+Wire Wire Line
+	7500 2400 7500 2600
+Wire Wire Line
+	6350 2300 7800 2300
+Wire Wire Line
+	7800 2300 7800 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5CF38F20
+P 6550 2850
+F 0 "#PWR?" H 6550 2600 50  0001 C CNN
+F 1 "GND" H 6700 2750 50  0000 C CNN
+F 2 "" H 6550 2850 50  0001 C CNN
+F 3 "" H 6550 2850 50  0001 C CNN
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2750 6550 2750
+Wire Wire Line
+	6550 2750 6550 2850
+Wire Wire Line
+	6350 2850 6550 2850
+Connection ~ 6550 2850
+Wire Wire Line
+	6350 3200 6450 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3B5F1
+P 6800 3200
+F 0 "#PWR?" H 6800 2950 50  0001 C CNN
+F 1 "GND" H 6950 3150 50  0000 C CNN
+F 2 "" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3200 6800 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3BABF
+P 6500 3950
+F 0 "#PWR?" H 6500 3700 50  0001 C CNN
+F 1 "GND" H 6505 3777 50  0000 C CNN
+F 2 "" H 6500 3950 50  0001 C CNN
+F 3 "" H 6500 3950 50  0001 C CNN
+	1    6500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3600 6500 3600
+Wire Wire Line
+	6500 3600 6500 3700
+Wire Wire Line
+	6350 3700 6500 3700
+Connection ~ 6500 3700
+Wire Wire Line
+	6500 3700 6500 3800
+Wire Wire Line
+	6350 3800 6500 3800
+Connection ~ 6500 3800
+Wire Wire Line
+	6500 3800 6500 3900
+Wire Wire Line
+	6350 3900 6500 3900
+Connection ~ 6500 3900
+Wire Wire Line
+	6500 3900 6500 3950
+$Comp
+L Device:R_Small R?
+U 1 1 5CF3CC78
+P 6650 3550
+F 0 "R?" H 6550 3500 50  0000 C CNN
+F 1 "24R" H 6550 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 6650 3550 50  0001 C CNN
+F 3 "~" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3D4D1
+P 6650 3700
+F 0 "#PWR?" H 6650 3450 50  0001 C CNN
+F 1 "GND" H 6655 3527 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3650 6650 3700
+Wire Wire Line
+	6350 3450 6650 3450
+Wire Wire Line
+	6350 3350 7000 3350
+Wire Wire Line
+	7000 3350 7000 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3EEE6
+P 7000 3650
+F 0 "#PWR?" H 7000 3400 50  0001 C CNN
+F 1 "GND" H 7150 3600 50  0000 C CNN
+F 2 "" H 7000 3650 50  0001 C CNN
+F 3 "" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3600 7000 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5CF3F825
+P 4650 2400
+F 0 "#PWR?" H 4650 2150 50  0001 C CNN
+F 1 "GND" H 4800 2350 50  0000 C CNN
+F 2 "" H 4650 2400 50  0001 C CNN
+F 3 "" H 4650 2400 50  0001 C CNN
+	1    4650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2400 5050 2400
+Wire Wire Line
+	5150 2500 5050 2500
+Wire Wire Line
+	5050 2500 5050 2400
+Connection ~ 5050 2400
+Wire Wire Line
+	5050 2400 5150 2400
+Wire Wire Line
+	5150 2600 5050 2600
+Wire Wire Line
+	5050 2600 5050 2500
+Connection ~ 5050 2500
+Wire Wire Line
+	5150 2700 5050 2700
+Wire Wire Line
+	5050 2700 5050 2600
+Connection ~ 5050 2600
+Wire Wire Line
+	5150 2800 5050 2800
+Wire Wire Line
+	5050 2800 5050 2700
+Connection ~ 5050 2700
+Wire Wire Line
+	5150 3000 5050 3000
+Wire Wire Line
+	5050 3000 5050 2900
+Wire Wire Line
+	5050 2900 5150 2900
+$Comp
+L power:+5V #PWR?
+U 1 1 5CF430F6
+P 4800 2900
+F 0 "#PWR?" H 4800 2750 50  0001 C CNN
+F 1 "+5V" H 4700 3000 50  0000 C CNN
+F 2 "" H 4800 2900 50  0001 C CNN
+F 3 "" H 4800 2900 50  0001 C CNN
+	1    4800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CF443F6
+P 4850 2000
+F 0 "#PWR?" H 4850 1850 50  0001 C CNN
+F 1 "+5V" H 4865 2173 50  0000 C CNN
+F 2 "" H 4850 2000 50  0001 C CNN
+F 3 "" H 4850 2000 50  0001 C CNN
+	1    4850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2250 4850 2300
+Wire Wire Line
+	4850 2300 5150 2300
+Wire Wire Line
+	4850 2000 4850 2050
+Wire Wire Line
+	4950 2900 5050 2900
+Connection ~ 5050 2900
+Wire Wire Line
+	4950 3200 5150 3200
+Wire Wire Line
+	4950 3000 4950 2900
+Connection ~ 4950 2900
+Wire Wire Line
+	4800 3500 5150 3500
+Wire Wire Line
+	4950 2900 4800 2900
+Wire Wire Line
+	4800 2900 4800 3300
+Connection ~ 4800 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5CF63D9E
+P 5100 3950
+F 0 "#PWR?" H 5100 3700 50  0001 C CNN
+F 1 "GND" H 5250 3850 50  0000 C CNN
+F 2 "" H 5100 3950 50  0001 C CNN
+F 3 "" H 5100 3950 50  0001 C CNN
+	1    5100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3950 5100 3900
+Wire Wire Line
+	5100 3900 5150 3900
+NoConn ~ 5150 3800
+$Comp
+L Device:C_Small C?
+U 1 1 5CF67213
+P 7250 3550
+F 0 "C?" H 7342 3596 50  0000 L CNN
+F 1 "0.1" H 7342 3505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7250 3550 50  0001 C CNN
+F 3 "~" H 7250 3550 50  0001 C CNN
+	1    7250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 5CF67A6E
+P 7400 3350
+F 0 "L?" V 7350 3350 50  0000 C CNN
+F 1 "0.1uH" V 7450 3350 50  0000 C CNN
+F 2 "" H 7400 3350 50  0001 C CNN
+F 3 "~" H 7400 3350 50  0001 C CNN
+	1    7400 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF698D4
+P 7400 3100
+F 0 "C?" V 7250 3150 50  0000 L CNN
+F 1 "0.1" V 7350 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7400 3100 50  0001 C CNN
+F 3 "~" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF6A4CC
+P 7700 3100
+F 0 "C?" V 7550 3150 50  0000 L CNN
+F 1 "0.1" V 7650 3150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7700 3100 50  0001 C CNN
+F 3 "~" H 7700 3100 50  0001 C CNN
+	1    7700 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 5CF6ABBD
+P 7700 3350
+F 0 "L?" V 7650 3350 50  0000 C CNN
+F 1 "0.1uH" V 7750 3350 50  0000 C CNN
+F 2 "" H 7700 3350 50  0001 C CNN
+F 3 "~" H 7700 3350 50  0001 C CNN
+	1    7700 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF6B124
+P 7550 3550
+F 0 "C?" H 7642 3596 50  0000 L CNN
+F 1 "0.1" H 7642 3505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7550 3550 50  0001 C CNN
+F 3 "~" H 7550 3550 50  0001 C CNN
+	1    7550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CF6BADC
+P 7850 3550
+F 0 "C?" H 7950 3600 50  0000 L CNN
+F 1 "0.1" H 7942 3505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7850 3550 50  0001 C CNN
+F 3 "~" H 7850 3550 50  0001 C CNN
+	1    7850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3100 7250 3100
+Wire Wire Line
+	7250 3100 7250 3350
+Wire Wire Line
+	7300 3350 7250 3350
+Connection ~ 7250 3350
+Wire Wire Line
+	7250 3350 7250 3450
+Wire Wire Line
+	7250 3650 7550 3650
+Connection ~ 7550 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5CF76C47
+P 7550 3650
+F 0 "#PWR?" H 7550 3400 50  0001 C CNN
+F 1 "GND" H 7555 3477 50  0000 C CNN
+F 2 "" H 7550 3650 50  0001 C CNN
+F 3 "" H 7550 3650 50  0001 C CNN
+	1    7550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3100 7850 3100
+Wire Wire Line
+	7850 3100 7850 3350
+Wire Wire Line
+	7800 3350 7850 3350
+Connection ~ 7850 3350
+Wire Wire Line
+	7850 3350 7850 3450
+Wire Wire Line
+	7000 3350 7250 3350
+Connection ~ 7000 3350
+$Comp
+L Device:C_Small C?
+U 1 1 5CF81816
+P 7950 3350
+F 0 "C?" V 7750 3300 50  0000 L CNN
+F 1 "0.1" V 7850 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7950 3350 50  0001 C CNN
+F 3 "~" H 7950 3350 50  0001 C CNN
+	1    7950 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 2850 7200 2800
+$Comp
+L Device:R_Small R?
+U 1 1 5CF8A890
+P 7000 3500
+F 0 "R?" H 6900 3450 50  0000 C CNN
+F 1 "51R" H 6900 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 7000 3500 50  0001 C CNN
+F 3 "~" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CF8C2F7
+P 6550 3200
+F 0 "R?" V 6650 3200 50  0000 C CNN
+F 1 "5K6" V 6450 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 6550 3200 50  0001 C CNN
+F 3 "~" H 6550 3200 50  0001 C CNN
+	1    6550 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CF8DFD0
+P 4800 3400
+F 0 "R?" H 4700 3350 50  0000 C CNN
+F 1 "10K" H 4700 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 4800 3400 50  0001 C CNN
+F 3 "~" H 4800 3400 50  0001 C CNN
+	1    4800 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CF8F9A4
+P 4950 3100
+F 0 "R?" H 4850 3050 50  0000 C CNN
+F 1 "10K" H 4850 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 4950 3100 50  0001 C CNN
+F 3 "~" H 4950 3100 50  0001 C CNN
+	1    4950 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CF9166C
+P 4850 2150
+F 0 "R?" H 4700 2100 50  0000 C CNN
+F 1 "10K" H 4700 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 4850 2150 50  0001 C CNN
+F 3 "~" H 4850 2150 50  0001 C CNN
+	1    4850 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 3100 7550 3100
+Wire Wire Line
+	7550 3450 7550 3350
+Connection ~ 7550 3100
+Wire Wire Line
+	7550 3100 7600 3100
+Wire Wire Line
+	7500 3350 7550 3350
+Connection ~ 7550 3350
+Wire Wire Line
+	7550 3350 7550 3100
+Wire Wire Line
+	7600 3350 7550 3350
+Wire Wire Line
+	7550 3650 7850 3650
 $EndSCHEMATC
