@@ -1,9 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACO-xxxMHz
+D HCMOS Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.conwin.com/datasheets/cx/cx030.pdf
+$ENDCMP
+#
+$CMP AD8620
+D Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
+$ENDCMP
+#
 $CMP AD9851
 D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
 K DDS direct digital synthesizer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
+$ENDCMP
+#
+$CMP GTXO-S14T
+D 3.3 & 5V Stratum 3 Sinewave TCXO, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf
+$ENDCMP
+#
+$CMP LM358
+D Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
+$ENDCMP
+#
+$CMP LMC6062
+D Precision CMOS Dual Micropower Operational Amplifier, DIP-8/SOIC-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lmc6062.pdf
+$ENDCMP
+#
+$CMP TCXO
+D HCMOS Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.conwin.com/datasheets/cx/cx030.pdf
+$ENDCMP
+#
+$CMP TCXO-14
+D Temperature Compensated Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf
 $ENDCMP
 #
 #End Doc Library

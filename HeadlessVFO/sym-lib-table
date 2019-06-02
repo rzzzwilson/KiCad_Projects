@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name HeadlessVFO)(type Legacy)(uri ${KIPRJMOD}/HeadlessVFO.lib)(options "")(descr ""))
+  (lib (name HeadlessVFO-rescue)(type Legacy)(uri ${KIPRJMOD}/HeadlessVFO-rescue.lib)(options "")(descr ""))
 )
