@@ -24,4 +24,4 @@ The *Misc* directory contains various documents:
 Status
 ------
 
-Not yet started.
+Currently working on the schematic.  The VFO part is mostly done.
