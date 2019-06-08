@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name HeadlessVFO)(type KiCad)(uri ${KIPRJMOD}/HeadlessVFO.pretty)(options "")(descr ""))
+)
