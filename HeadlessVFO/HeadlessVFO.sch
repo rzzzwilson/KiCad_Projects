@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "HeadlessVFO"
 Date "2019-06-01"
-Rev "1.0"
+Rev "0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
