@@ -507,8 +507,8 @@ L Iota:ATmega32U4-AU U1
 U 1 1 5C567AD3
 P 8100 3750
 F 0 "U1" H 7650 5500 50  0000 C CNN
-F 1 "ATmega32U4-AU" V 8100 3750 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 8100 3750 50  0001 C CIN
+F 1 "ATmega32U4-MU" V 8100 3750 50  0000 C CNN
+F 2 "Iota:QFN-44-1EP_7x7mm_Pitch0.5mm" H 8100 3750 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8100 3750 50  0001 C CNN
 	1    8100 3750
 	1    0    0    -1  
