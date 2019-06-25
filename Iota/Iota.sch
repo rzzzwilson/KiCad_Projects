@@ -717,7 +717,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2600 4500 2700
 Text GLabel 4750 1800 2    50   Input ~ 0
-D6
+B0
 Wire Wire Line
 	4750 1800 4500 1800
 Wire Wire Line
