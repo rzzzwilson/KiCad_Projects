@@ -1,6 +1,13 @@
 .DS_Store
-gerber
-gerbers
+*B_Cu.gbl
+*B_SilkS.gbo
+*F_Cu.gtl
+*F_SilkS.gto
+*B_Mask.gbs
+*Edge_Cuts.gm1
+*F_Mask.gts
+*.drl	
+
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
