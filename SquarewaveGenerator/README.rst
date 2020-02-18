@@ -47,7 +47,8 @@ and the board installed in a small 25x25x50mm case:
 
 With the generator working into a 50 ohm load it draws about 30mA at 5v.  Here's
 a close look at the leading edge of the 3KHz square wave.  Risetime is even
-better than the first version at 1.7ns:
+better than the first version at 1.7ns.  Not shown is a 700KHz low frequency
+ringing.
 
 .. image:: DS1Z_QuickPrint5.png
 
@@ -83,5 +84,9 @@ the latest KiCad design includes the capacitor.  I won't make a PCB for this
 as the patched version works fine.  The final PCB looks like this:
 
 .. image:: Version3.1PCB.png
+
+Here's a shot of the "patched" board in its case:
+
+.. image:: IMG_6316.JPG
 
 That's about as far I will go with this simple circuit.
